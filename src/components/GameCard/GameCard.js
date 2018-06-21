@@ -13,21 +13,18 @@ class GameCard extends React.Component {
       imageIdArray: [],
       topScore: 0,
       images,
-      info:"Click an image to begin!",
-      color:""
-             
+      info: "Click an image to begin!",
+      color: ""
     }
-
   }
   handleImageClick = (event) => {
-
     if (!this.state.imageIdArray.includes(event.currentTarget.dataset.id)) {
       this.setState({
         count: this.state.count + 1,
         imageIdArray: [...this.state.imageIdArray, event.currentTarget.dataset.id],
         image: this.shuffelImages(this.state.images),
-        info:"You guessed correctly!",
-        color:"#0f0"
+        info: "You guessed correctly!",
+        color: "#0f0"
 
       });
       if (this.state.topScore < this.state.count) {
@@ -38,8 +35,8 @@ class GameCard extends React.Component {
       this.setState({
         count: 0,
         imageIdArray: [],
-        info:"You guessed incorrectly!",
-        color:"#f00"
+        info: "You guessed incorrectly!",
+        color: "#f00"
       });
     }
     this.forceUpdate();
@@ -55,12 +52,11 @@ class GameCard extends React.Component {
     return image;
   }
   render() {
-    
-      return (
+
+    return (
       <div className="div">
-      
-      <Header color={this.state.color} count={this.state.count} topScore={this.state.topScore} info={this.state.info} />
-      <Jumbotron />
+        <Header color={this.state.color} count={this.state.count} topScore={this.state.topScore} info={this.state.info} />
+        <Jumbotron />
         <span >
           {this.state.images.map(item => (
             <div className="card">
@@ -73,7 +69,6 @@ class GameCard extends React.Component {
                   onClick={this.handleImageClick}
                 />
               </div>
-
             </div >
           ))}
         </span>
