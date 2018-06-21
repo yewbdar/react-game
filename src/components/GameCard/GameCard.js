@@ -1,7 +1,8 @@
 import React from "react";
 import "./GameCard.css";
 import images from "../../image.json"
-import Title from "../Title";
+import Header from "../Header";
+import Jumbotron from "../Jumbotron";
 
 class GameCard extends React.Component {
 
@@ -11,8 +12,10 @@ class GameCard extends React.Component {
       count: 0,
       imageIdArray: [],
       topScore: 0,
-      images
-
+      images,
+      info:"Click an image to begin!",
+      color:""
+             
     }
 
   }
@@ -21,9 +24,10 @@ class GameCard extends React.Component {
     if (!this.state.imageIdArray.includes(event.currentTarget.dataset.id)) {
       this.setState({
         count: this.state.count + 1,
-        topScore:this.state.topScore,
         imageIdArray: [...this.state.imageIdArray, event.currentTarget.dataset.id],
-        image: this.shuffelImages(this.state.images)
+        image: this.shuffelImages(this.state.images),
+        info:"You guessed correctly!",
+        color:"#0f0"
 
       });
       if (this.state.topScore < this.state.count) {
@@ -33,7 +37,9 @@ class GameCard extends React.Component {
     } else {
       this.setState({
         count: 0,
-        imageIdArray: []
+        imageIdArray: [],
+        info:"You guessed incorrectly!",
+        color:"#f00"
       });
     }
     this.forceUpdate();
@@ -50,9 +56,11 @@ class GameCard extends React.Component {
   }
   render() {
     
-      <Title count={this.setState.count} topScore={this.state.topScore} />
       return (
       <div className="div">
+      
+      <Header color={this.state.color} count={this.state.count} topScore={this.state.topScore} info={this.state.info} />
+      <Jumbotron />
         <span >
           {this.state.images.map(item => (
             <div className="card">
