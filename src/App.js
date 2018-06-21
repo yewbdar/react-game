@@ -8,7 +8,7 @@ import GameCard from "./components/GameCard";
 const App = () => (
 
   <Wrapper>
-    <Title>Friends List</Title>
+    
     <GameCard  />
     
   </Wrapper>

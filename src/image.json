@@ -3,77 +3,64 @@
     "id": 1,
     
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9F9Rde0TmQDsWJ6-pe_WwB2KIu-JRNYe-zm18Tct9MERw6lJxrA"
   },
   {
     "id": 2,
     "name": "Mr. Krabs",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBZRlPfyuKtZCnQjPJK2QQH2wymyzPexSVVPMcl3sqqpd5xL6nQ"
   },
   {
     "id":  3,
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9BOKEiR4LWwazn26OOlG9gzPlNQx5X_IzhyDaBfeJZKMBMqh"
   },
   {
     "id": 4,
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIicl8bDMGdbTAuqpwxO-5_qJuGBoAytq-e80gHZ9QMg6lFKgMA"
   },
   {
     "id": 5,
     "name": "Mr. Krabs",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2s2V9WCQ7RH1hTO73BNiCtQEL8wLz2Kro56O0MtCeesHn50nA"
   },
   {
     "id": 6,
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzrtxmKrkpI9JPgr0gsriUwcu9L3UGCtlCC-2eYz8g1CzqHH6v"
   },
   {
     "id": 7,
     
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpHN-FxlC69M_GW462-xi2edtQmibNIrFwzOkev9TRdbm4v1bD"
   },
   {
     "id": 8,
     "name": "Mr. Krabs",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAV2Pw30B0OP7mHr6CawHCF5e32_k81QDMWafuzUckdHB_eJ6J"
   },
   {
     "id": 9,
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78OLrJilK71pHqqyghwwDr6WNZTvWvm8zLreq3kga9nOGBhYw"
   },
   {
     "id": 10,
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFcYVmfpyGSOeHddtVTyVwoSpO9KKRXpBQZuKPxNEU3z09Yoj"
   },
   {
     "id": 11,
-    "name": "Mr. Krabs",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
-    
-  },{
-    "id": 9,
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5y1EwkRy_2slOmRvZK-XzNvMCE6oel2x_G-8meqD6mEIpBIjG"
+    },{
+    "id": 12,
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
-    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQijU1hLmrRERk6f2WUFESD2BqFn43zvzXO8tfC4vyW75gTsbsu"
   }
 ]
