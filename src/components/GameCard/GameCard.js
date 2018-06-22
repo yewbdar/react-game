@@ -14,7 +14,7 @@ class GameCard extends React.Component {
       topScore: 0,
       images,
       info: "Click an image to begin!",
-      color: ""
+      color: "#fff"
     }
   }
   handleImageClick = (event) => {
